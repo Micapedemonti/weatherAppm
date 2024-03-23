@@ -1,0 +1,32 @@
+/* .App {
+  text-align: center;
+  background-image: url(../src/assets/fondo.jpg);
+  transition: background-image 15s ease; 
+  height: 100vh;
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.cold-weather {
+  background-image: url('../src/assets/nublado.webp');
+} */
+.App {
+  text-align: center;
+  background-image: url(../src/assets/fondo.jpg);
+  transition: background-image 15s ease; 
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.cold-weather {
+  background-image: url('../src/assets/nublado.webp');
+}

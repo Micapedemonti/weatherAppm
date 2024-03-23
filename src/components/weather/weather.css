@@ -1,0 +1,37 @@
+.container-clima{
+    margin-top: 46px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clima-detalle {
+    width: 340px;
+    height: 260px;
+    background-color: #e5e5e5;
+    opacity: 0.5;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .clima-temp-actual h1{
+    font-size: 3rem;
+  }
+  .clima-datos-principales{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+.clima-subdetalles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 18px;
+}  
+.clima-subdetalles h1 {
+    font-size: 1rem;
+}

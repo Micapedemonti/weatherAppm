@@ -1,0 +1,39 @@
+.input-search{
+   width: 400px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 800;
+}
+.input-search::placeholder {
+    color:white;
+}
+.btn-search{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.icono-search{
+width: 16px;
+color: white;
+}
+.form-search{
+    margin-top: 10px;
+    width: 600px;
+    padding: 10px;
+    border-radius: 16px;
+    background: none;
+    border: 2px solid white;
+    outline: none;
+    color: white;
+    font-weight: 800x;
+    display: flex;
+    justify-content: space-between;
+}
+.container-search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
