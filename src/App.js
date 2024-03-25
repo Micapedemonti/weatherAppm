@@ -1,26 +1,3 @@
-// import './App.css';
-// import { useState } from 'react';
-// import Search from './components/search/search';
-// import WeatherApp from './components/weather/weather';
-
-// function App() {
-//   const [searchedCity, setSearchedCity] = useState('');
-
-//   const handleSearch = (city) => {
-//     setSearchedCity(city);
-//   };
-
-//   return (
-//     <div className="App"> 
-//       <Search onSearch={handleSearch} />
-//       <WeatherApp searchedCity={searchedCity} />
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
 import './App.css';
 import { useState } from 'react';
 import Search from './components/search/search';
@@ -43,3 +20,4 @@ function App() {
 }
 
 export default App;
+
