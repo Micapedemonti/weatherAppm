@@ -18,7 +18,7 @@ const WeatherApp = ({ searchedCity, onTemperatureChange }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://weatherappm.onrender.com//weather', {
+        const response = await axios.get('https://weatherappm.onrender.com/weather', {
           params: {
             ciudad: searchedCity,
             apiKey: 'be454d68474e61c070edc0083e4b91a0'
